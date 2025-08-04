@@ -63,7 +63,7 @@ img{
     right: 0;
     top: 10px;
     margin: 0 auto;
-    
+
  }
 
  .navbar a{
@@ -103,4 +103,10 @@ img{
     background-size: cover;
     color: #fff;
 
+ }
+
+ .content{
+
+    text-align: center;
+    display: flex;
  }
