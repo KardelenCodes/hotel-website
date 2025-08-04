@@ -56,9 +56,14 @@ img{
     color: #fff;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 80%;
     height: 70px;
     padding: 0 3rem;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: 0 auto;
+    
  }
 
  .navbar a{
@@ -87,4 +92,15 @@ img{
 
  .navbar span{
     color: var(--warning);
+ }
+
+
+ .main-header{
+    background-image: url(../asset/bg-1.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
  }
