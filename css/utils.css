@@ -103,3 +103,22 @@
         height: 100%;
     }
     
+    .flex-items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:100% ;
+}
+
+.flex-items > div {
+    padding: 20px;
+    flex-basis: 100%;
+}
+
+:root {
+  --lg-bg-color: rgba(255, 255, 255, 0.25);
+  --lg-highlight: rgba(255, 255, 255, 0.75);
+  --lg-text: #ffffff;
+  --lg-red: #fb4268;
+  --lg-grey: #444739;
+}
