@@ -161,3 +161,24 @@ img{
     padding: 15px 11px;
     margin-bottom: 1.5rem;
 }
+
+.photo{
+    background-image: url(../asset/room1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 350px;
+}
+
+.main-text{
+  background-color: #333;
+  color: #fff;
+  width: 47%;;
+
+}
+
+.room-customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
